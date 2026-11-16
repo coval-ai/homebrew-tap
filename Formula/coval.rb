@@ -1,26 +1,26 @@
 class Coval < Formula
   desc "CLI for Coval AI agent evaluation platform"
   homepage "https://coval.dev"
-  version "0.11.0"
+  version "0.11.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/coval-ai/cli/releases/download/v0.11.0/coval-macos-arm64.tar.gz"
-      sha256 "57a9b7e74c9947fabb456ea3048807c200dec229369b197a91325629385cbbaa"
+      url "https://github.com/coval-ai/cli/releases/download/v0.11.1/coval-macos-arm64.tar.gz"
+      sha256 "7dabba45358d317cb7257551740b59ca8f381760dd49df552dd54753f6a73455"
     else
-      url "https://github.com/coval-ai/cli/releases/download/v0.11.0/coval-macos-x64.tar.gz"
-      sha256 "f91cb9c1973e076137e6f5144bc88918c7a76a139031c4bb355d75ad6adcdd73"
+      url "https://github.com/coval-ai/cli/releases/download/v0.11.1/coval-macos-x64.tar.gz"
+      sha256 "bd3a1234f82e5c2695ff81d9b5587c729df8f6ed2ee6754dadf9572834afe37f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/coval-ai/cli/releases/download/v0.11.0/coval-linux-arm64.tar.gz"
-      sha256 "13312a703560a4fffe8eba2f7d6109534246b69b638b05f26fa361524616c221"
+      url "https://github.com/coval-ai/cli/releases/download/v0.11.1/coval-linux-arm64.tar.gz"
+      sha256 "c85db20bd056d9bc6ab179884257ab6f086ecabd8bee7017450d44c6af4d8ee7"
     else
-      url "https://github.com/coval-ai/cli/releases/download/v0.11.0/coval-linux-x64.tar.gz"
-      sha256 "bbba3c994b09a55f6e9d4c39645fe9d97e03a562cdb66ba858dd07c5da5a8200"
+      url "https://github.com/coval-ai/cli/releases/download/v0.11.1/coval-linux-x64.tar.gz"
+      sha256 "8be2217f3c9769f1201362db3ab850987eec8b060fd18d312b704c7da2c56ba1"
     end
   end
 
